@@ -18,5 +18,8 @@ module.exports = {
   ],
   rules: {
     'react/button-has-type': ['off'],
+    'import/no-extraneous-dependencies': ['off'],
+    'react/react-in-jsx-scope': ['off'],
+    'linebreak-style': ['error', 'windows'],
   },
 };
